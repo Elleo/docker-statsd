@@ -26,6 +26,7 @@ The following enviromental varaible are supported by this image.
 - **STATSD_DUMP_MSG**             (default: false)
 - **STATSD_DEBUG**                (default: false)
 - **STATSD_FLUSH_INTERVAL**       (default: 10000)
+- **STATSD_DELETE_IDLE_STATS**    (default: false)
 
 ## Running the container
 

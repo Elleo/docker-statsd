@@ -109,6 +109,7 @@ Optional Variables:
         dumpMessages: process.env.STATSD_DUMP_MSG == "true",
         debug: process.env.STATSD_DEBUG == "true",
         flushInterval: parseInt(process.env.STATSD_FLUSH_INTERVAL),
+        deleteIdleStats: process.env.STATSD_DELETE_IDLE_STATS == "true",
 
         graphite: {
             globalPrefix: process.env.GRAPHITE_GLOBAL_PREFIX,
