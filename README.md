@@ -47,7 +47,3 @@ This image is available in the docker registry at jaconel/statsd:
 If you wish to build this repository manually, the following command(s) can be used:
 
 ```sudo docker build -t statsd . ```
-
-To push the image to docker hub:
-
-```sudo docker push jaconel/statsd```
